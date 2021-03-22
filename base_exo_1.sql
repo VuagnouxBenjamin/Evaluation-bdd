@@ -28,6 +28,6 @@ CREATE TABLE est_compose (
     com_num int REFERENCES commande(com_num), 
     pro_num int REFERENCES produit(pro_num),
     est_qte int
-) 
+); 
 
 CREATE INDEX index_cli ON client(cli_nom);
